@@ -1,0 +1,113 @@
+.body{
+    width: 1280px;
+    height: 771px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+.body_img{
+    margin: 0px;
+    width: 1280px;
+    height: 771px;
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+}
+.header{
+    width: 900px;
+    height: 65px;
+    padding: 15px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.header_logo{
+    width: 128px;
+    height: 61px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.header_menu{
+    width: 480px;
+    height: 25px;
+    margin-left: 286px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.header_menu_text{
+    width: 120px;
+    height: 100%;
+    text-align: center;
+}
+#header_text_1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+#header_text_2{
+    color: #ACACAC;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.main{
+    width: 516px;
+    height: 315px;
+    margin-left: 192px;
+    margin-top: 184px;
+}
+#main_text_1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 516px;
+    height: 124px;
+    overflow-wrap: break-word;
+}
+#main_text_2{
+    margin-top: -30px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 486px;
+    height: 63px;
+    overflow-wrap: break-word;
+}
+.main_button{
+    width: 190px;
+    height: 56px;
+    background-color: #F6762C;
+    border-radius: 5px;
+    margin-top: 42px;
+    border: 0px;
+    text-align: center;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.main_button:hover{
+    background-color: #ffc19d;
+    box-shadow: 0px 2px 5px 0px black;
+    transition: 0.6s;
+    color: #494949;
+}
